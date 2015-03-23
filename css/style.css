@@ -1,0 +1,339 @@
+@font-face {
+	font-family: 'UniversLTStd-Cn';
+	src: url('../assets/font/UniversLTStd-Cn.otf') format('opentype');
+	src: url('../assets/font/UniversLTStd-Cn.eot');
+  	src: url('../assets/font/UniversLTStd-Cn.eot?#iefix') format('embedded-opentype'),
+		url('../assets/font/UniversLTStd-Cn.woff2') format('woff2'),
+		url('../assets/font/UniversLTStd-Cn.woff') format('woff'),
+		url('../assets/font/UniversLTStd-Cn.ttf') format('truetype'),
+		url('../assets/font/UniversLTStd-Cn.svg#UniversLTStd-Cn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UniversLTStd-LightCn';
+	src: url('../assets/font/UniversLTStd-LightCn.otf') format('opentype');
+	src: url('../assets/font/UniversLTStd-LightCn.eot');
+  	src: url('../assets/font/UniversLTStd-LightCn.eot?#iefix') format('embedded-opentype'),
+		url('../assets/font/UniversLTStd-LightCn.woff2') format('woff2'),
+		url('../assets/font/UniversLTStd-LightCn.woff') format('woff'),
+		url('../assets/font/UniversLTStd-LightCn.ttf') format('truetype'),
+		url('../assets/font/UniversLTStd-LightCn.svg#UniversLTStd-LightCn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	color: #333;
+	font-family: 'UniversLTStd-LightCn', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-default {
+	font-family: 'UniversLTStd-LightCn', sans-serif;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+	cursor: pointer;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+h1 {
+	color: #fff;
+	font-family: 'UniversLTStd-Cn', sans-serif;
+	font-size: 70px;
+	text-shadow: 1px 1px 5px #222;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #bbb;
+	font-family: 'UniversLTStd-Cn', sans-serif;
+	font-size: 50px;
+  	text-shadow: 1px 1px 5px #222;
+	text-transform: uppercase;
+}
+
+.navigation {
+	background: url('') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#home {
+	background-image: url("../assets/images/bg-home.jpg");
+	min-height: 375px;
+}
+
+#practice {
+	background-image: url("../assets/images/bg-practice.jpg");
+}
+
+#people {
+	background-image: url("../assets/images/bg-home.jpg");
+}
+
+#contact {
+	background-image: url("../assets/images/bg-contact.jpg");
+}
+
+#header {
+	font-family: 'UniversLTStd-Cn', sans-serif;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.content h3 {
+	color: #000;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content .divider {
+	background: #000;
+	height: 3px;
+	margin: 0 auto 25px;
+	width: 75px;
+}
+
+.content .container {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.content .container ul {
+	margin-left: 35px;
+}
+
+.content h4,
+.content ul {
+	text-transform: uppercase;
+}
+
+#contactForm ul {
+	margin-left: 5px;
+}
+
+.content .container li {
+	list-style-type: disc;
+	margin-bottom: 10px;
+}
+
+.content .portrait {
+	margin-bottom: 15px;
+	width: 300px;
+}
+
+.portraitContainer {
+	text-align: center;
+}
+
+.form-control {
+	font-size: 16px;
+	height: 40px;
+}
+
+.content .container .help-block li {
+	color: red;
+	list-style-type: none;
+}
+
+footer {
+	background: #222;
+	color: #999;
+	padding: 50px 0;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer .social {
+	float: right;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+footer .social li {
+	float: left;
+	padding-right: 15px;
+}
+
+footer .social a {
+	color: #999;
+	font-size: 30px;
+}
+
+footer .social a:hover {
+	color: #bbb;
+}
+
+@media (min-width:768px) {
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+
+	.navbar .navbar-collapse {
+	  	text-align: center;
+	}
+	.navbar-brand {
+		display: none;
+	}
+
+	.navbar-brand img {
+		margin-top: -15px;
+	}
+
+	.navbar>.container .navbar-brand,
+	.navbar>.container-fluid .navbar-brand {
+		margin-left: 0;
+	}
+
+	.navbar-default {
+		background: transparent;
+		border: 0;
+		padding-top: 15px;
+	}
+
+	.navbar-nav>li>.dropdown-menu {
+		margin-left: -1px;
+	}
+
+	.dropdown-menu>li>a {
+		padding: 15px;
+	}
+
+	.navbar-brand span {
+		display: none;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+		color: #fff;
+  		text-shadow: 1px 1px 5px #222;
+	}
+
+	.navbar-nav>li {
+		margin-right: 5px;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover,
+	.navbar-default .navbar-nav>li>a:focus,
+	.navbar-default .navbar-nav>.active>a,
+	.navbar-default .navbar-nav>.active>a:hover,
+	.navbar-default .navbar-nav>.active>a:focus,
+	.navbar-default .navbar-nav>.open>a,
+	.navbar-default .navbar-nav>.open>a:hover,
+	.navbar-default .navbar-nav>.open>a:focus {
+		color: #000;
+		background: #fff;
+		text-shadow: none;
+	}
+
+	.navbar-default .navbar-nav>li>.navbar-brand:hover {
+		background: transparent;
+	}
+
+	.content {
+		padding-bottom: 50px;
+	}
+}
+
+@media (max-width:767px) {
+	.navigation .container {
+		padding: 0;
+	}
+
+	.navbar-default {
+		padding: 5px 0 5px 5px;
+	}
+
+	.navigation h1,
+	.navigation h2 {
+		padding: 0 5px;
+	}
+
+	.navbar-brand {
+		padding: 0;
+	}
+
+	.nav>li>.navbar-brand {
+		display: none;
+	}
+
+	footer {
+		padding: 25px 0;
+	}
+
+	.navigation {
+		padding-bottom: 0;
+	}
+
+	.navbar-nav .dropdown .dropdown-menu {
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		display: block;
+		float: none;
+		position: static;
+		width: auto;
+	}
+
+	.navbar-default .navbar-nav .dropdown .dropdown-menu>li>a {
+		color: #777;
+	}
+
+	.navbar-nav .dropdown .dropdown-menu>li>a {
+		line-height: 20px;
+	}
+
+	.navbar-nav .dropdown .dropdown-menu>li>a,
+	.navbar-nav .dropdown .dropdown-menu .dropdown-header {
+		padding: 5px 15px 5px 25px;
+	}
+}
+
+@media (max-width: 375px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		background: #f8f8f8;
+		position: absolute;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 50px;
+	}
+
+@media (max-width: 320px) {
+	h1 {
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+}
